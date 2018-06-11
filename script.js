@@ -1,5 +1,6 @@
 var age = Number(prompt('What is your age?'));
 
+// If input is NaN
 if (Number.isNaN(age)) {
     console.log('Input is not a valid number, only numbers 0-9 allowed');
 }
